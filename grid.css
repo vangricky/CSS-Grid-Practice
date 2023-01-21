@@ -128,12 +128,20 @@
     display:grid;
     grid-template-columns: 1fr 2fr 3fr;
     grid-template-rows: 150px 200px 200px 200px;
-    grid-gap: 5px;
+    grid-gap: 10px;
 }
 
 .itembox2 {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+    transition: .2s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.itembox2:hover {
+    transform: scale(1.02);
+    opacity: 75%;
 }
 
 .item1 {
