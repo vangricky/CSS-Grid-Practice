@@ -110,6 +110,10 @@
 
 .text {
     color: white;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 150px;
 }
 
 @keyframes pulse{
